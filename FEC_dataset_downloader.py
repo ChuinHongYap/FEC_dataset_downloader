@@ -1,9 +1,9 @@
 """
 FEC dataset downloader:
-    1. Download and crop based on log file.
-	2. Store separately in jpeg files.
-    3. There are lots of errors, unavailable etc which is recorded in a separate csv.
-	4. START_ROW is used to resume the dataset download (when error occurs).
+1. Download and crop based on log file.
+2. Store separately in jpeg files.
+3. There are lots of errors, unavailable etc which is recorded in a separate csv.
+4. START_ROW is used to resume the dataset download (when error occurs).
 
 """
 import pandas as pd
