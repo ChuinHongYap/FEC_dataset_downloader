@@ -1,11 +1,27 @@
 """
+FEC_dataset_downloader is a downloader for Google Facial Expression Comparison (FEC) dataset.
+
+    Copyright (C) 2021  Chuin Hong Yap
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+"""
+
+"""
 FEC dataset downloader:
 1. Download and crop based on log file.
 2. Store separately in jpeg files.
 3. There are lots of errors, unavailable etc which is recorded in a separate csv.
 4. START_ROW is used to resume the dataset download (when error occurs).
-
 """
+
 import pandas as pd
 import csv
 import os
