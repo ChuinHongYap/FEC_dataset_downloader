@@ -7,7 +7,7 @@ This repository is an automated downloader that uses the url provided by in the 
 
 The code loads the image (from the url), crops it and saves it as jpeg format in designated folder. The image triplets are stored separately. Any errors will be recorded in a separated csv.
 
-# Packages Used
+# Libraries
 Pandas 1.1.3, Scikit-image 0.17.2
 
 # Disclaimer
